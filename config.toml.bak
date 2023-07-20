@@ -10,242 +10,46 @@
 
 [menu]
   [[menu.main]]
-    identifier = "drycchen"
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "陳彥君"
-    url = "/profile/drycchen"
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
     title = ""
     weight = 1
-    #[menu.main.params]
-    #  icon = "fa-solid fa-th"
+    # FixIt 0.2.14 | NEW add user-defined content to menu items
+    [menu.main.params]
+      # add css class to a specific menu item
+      class = ""
+      # whether set as a draft menu item whose function is similar to a draft post/page
+      draft = false
+      # FixIt 0.2.16 | NEW add fontawesome icon to a specific menu item
+      icon = "fa-solid fa-archive"
+      # FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"]
+      type = ""
   [[menu.main]]
-    identifier = "profile"
+    identifier = "categories"
     pre = ""
     post = ""
-    name = "簡介/ Profile"
-    url = "/profile/about"
+    name = "Categories"
+    url = "/categories/"
     title = ""
     weight = 2
     [menu.main.params]
       icon = "fa-solid fa-th"
   [[menu.main]]
-    identifier = "researchoutput"
+    identifier = "tags"
     pre = ""
     post = ""
-    name = "研究成果 / Research Outputs"
-    url = "/researchoutput/"
+    name = "Tags"
+    url = "/tags/"
     title = ""
     weight = 3
     [menu.main.params]
-      icon = "fa-solid fa-th"
-  [[menu.main]]
-    identifier = "researchgrants"
-    pre = ""
-    post = ""
-    name = "研究計畫 / Research Grants"
-    url = "/researchgrants/"
-    title = ""
-    weight = 4
-    [menu.main.params]
-      icon = "fa-solid fa-th"
-  [[menu.main]]
-    identifier = "researchnote"
-    pre = ""
-    post = ""
-    name = "研究筆記 / Research Note"
-    url = "/researchnote/"
-    title = ""
-    weight = 5
-    [menu.main.params]
-      icon = "fa-solid fa-th"
-  [[menu.main]]
-    identifier = ""
-    # FixIt 0.2.14 | 新增 父级菜单项的标识符 (identifier)
-    parent = "researchnote"
-    # 你可以在名称（允许 HTML 格式）之前添加其他信息，例如图标
-    pre = ""
-    # 你可以在名称（允许 HTML 格式）之后添加其他信息，例如图标
-    post = ""
-    name = "商管領域國際期刊評比彙整 - Where is your journal home?"
-    url = "/researchnote/where-is-your-journal-home"
-    # 当你将鼠标悬停在此菜单链接上时，将显示的标题
-    title = ""
-    weight = 1
-    # FixIt 0.2.14 | 新增 向菜单项添加用户定义的内容
-    [menu.main.params]
-      # 添加 CSS 类到菜单项
-      class = ""
-      # 是否为草稿菜单，类似草稿页面
-      draft = false
-      # FixIt 0.2.16 | 新增 添加 fontawesome 图标到菜单项
-      icon = ""
-      # FixIt 0.2.16 | 新增 设置菜单项类型，可选值：["mobile", "desktop"]
-      type = ""
-  [[menu.main]]
-    identifier = ""
-    parent = "researchnote"
-    pre = ""
-    post = ""
-    name = "如何提升研究的可閱讀性"
-    url = "/researchnote/how-to-improve-readable"
-    title = ""
-    weight = 2
-    [menu.main.params]
-      class = ""
-      draft = false
-      icon = ""
-      type = ""
-  [[menu.main]]
-    identifier = ""
-    parent = "researchnote"
-    pre = ""
-    post = ""
-    name = "從行為經濟學到行銷研究和應用 -How Does Behavioral Economics Influence Marketing? "
-    url = "/researchnote/how-to-improve-readable"
-    title = ""
-    weight = 3
-    [menu.main.params]
-      class = ""
-      draft = false
-      icon = ""
-      type = ""
-  [[menu.main]]
-    identifier = ""
-    parent = "researchnote"
-    pre = ""
-    post = ""
-    name = "開創當代行銷學的巨擘們 - Marketing Gurus you have to know"
-    url = "/researchnote/how-to-improve-readable"
-    title = ""
-    weight = 4
-    [menu.main.params]
-      class = ""
-      draft = false
-      icon = ""
-      type = ""
-  [[menu.main]]
-    identifier = ""
-    parent = "researchnote"
-    pre = ""
-    post = ""
-    name = "有關研究人員的時間管理 -How do researchers effectively manage time? 一個電腦科學家對於教授職涯的自我省思"
-    url = "/researchnote/how-to-improve-readable"
-    title = ""
-    weight = 5
-    [menu.main.params]
-      class = ""
-      draft = false
-      icon = ""
-      type = ""
-  [[menu.main]]
-    identifier = ""
-    parent = "researchnote"
-    pre = ""
-    post = ""
-    name = "行銷領域期刊審查委員的角色和影響力 - What is the role of reviewers?"
-    url = "/researchnote/how-to-improve-readable"
-    title = ""
-    weight = 6
-    [menu.main.params]
-      class = ""
-      draft = false
-      icon = ""
-      type = ""
-  [[menu.main]]
-    identifier = ""
-    parent = "researchnote"
-    pre = ""
-    post = ""
-    name = "如何思考研究貢獻 - What is research contribution?"
-    url = "/researchnote/how-to-improve-readable"
-    title = ""
-    weight = 8
-    [menu.main.params]
-      class = ""
-      draft = false
-      icon = ""
-      type = ""
-  [[menu.main]]
-    identifier = ""
-    parent = "researchnote"
-    pre = ""
-    post = ""
-    name = "研究小工具推薦 1 - Google學術搜尋按鈕"
-    url = "/researchnote/how-to-improve-readable"
-    title = ""
-    weight = 9
-    [menu.main.params]
-      class = ""
-      draft = false
-      icon = ""
-      type = ""
-  [[menu.main]]
-    identifier = ""
-    parent = "researchnote"
-    pre = ""
-    post = ""
-    name = "研究小工具推薦 2 - Everything 免費軟體"
-    url = "/researchnote/how-to-improve-readable"
-    title = ""
-    weight = 10
-    [menu.main.params]
-      class = ""
-      draft = false
-      icon = ""
-      type = ""
-  [[menu.main]]
-    identifier = ""
-    parent = "researchnote"
-    pre = ""
-    post = ""
-    name = "研究小工具推薦3 - 文獻回顧好工具"
-    url = "/researchnote/how-to-improve-readable"
-    title = ""
-    weight = 11
-    [menu.main.params]
-      class = ""
-      draft = false
-      icon = ""
-      type = ""
-  [[menu.main]]
-    identifier = ""
-    parent = "researchnote"
-    pre = ""
-    post = ""
-    name = "學術界之英雄出少年  Dr. Shrihari Sridhar"
-    url = "/researchnote/how-to-improve-readable"
-    title = ""
-    weight = 12
-    [menu.main.params]
-      class = ""
-      draft = false
-      icon = ""
-      type = ""
-  [[menu.main]]
-    identifier = ""
-    parent = "researchnote"
-    pre = ""
-    post = ""
-    name = "不知道如何操作SEM分析軟體嗎? 來看看學術界網紅 Dr. James Gaskin的頻道吧"
-    url = "/researchnote/how-to-improve-readable"
-    title = ""
-    weight = 13
-    [menu.main.params]
-      class = ""
-      draft = false
-      icon = ""
-      type = ""
-  [[menu.main]]
-    identifier = "blog"
-    pre = ""
-    post = ""
-    name = "Blog"
-    url = "/blog/"
-    title = ""
-    weight = 6
-    [menu.main.params]
-      icon = "fa-solid fa-th"
+      icon = "fa-solid fa-tags"
 
 # -------------------------------------------------------------------------------------
 # Theme Core Configuration
@@ -337,9 +141,9 @@
     # FixIt 0.2.0 | NEW Header title config
     [params.header.title]
       # URL of the LOGO
-      #logo = "/fixit.min.svg"
+      logo = "/fixit.min.svg"
       # title name
-      name = "陳彥君的學術園地"
+      name = "My Hugo FixIt Site"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -434,7 +238,7 @@
     rss = 10
     # Home page profile
     [params.home.profile]
-      enable = true
+      enable = false
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
@@ -453,7 +257,7 @@
       disclaimer = ""
     # Home page posts
     [params.home.posts]
-      enable = false
+      enable = true
       # special amount of posts in each home posts page
       paginate = 6
 
