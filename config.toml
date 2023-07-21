@@ -14,11 +14,11 @@
     pre = ""
     post = ""
     name = "陳彥君"
-    url = "/profile/drycchen"
+    url = "/"
     title = ""
     weight = 1
-    #[menu.main.params]
-    #  icon = "fa-solid fa-th"
+    [menu.main.params]
+      icon = "fa-regular fa-user"
   [[menu.main]]
     identifier = "profile"
     pre = ""
@@ -28,23 +28,24 @@
     title = ""
     weight = 2
     [menu.main.params]
-      icon = "fa-solid fa-th"
+      icon = "fa fa-user-circle" #"fal fa-user-graduate"
+      #"fal fa-user-circle"
   [[menu.main]]
     identifier = "researchoutput"
     pre = ""
     post = ""
     name = "研究成果 / Research Outputs"
-    url = "/researchoutput/"
+    url = "/profile/researchoutput"
     title = ""
     weight = 3
     [menu.main.params]
-      icon = "fa-solid fa-th"
+      icon = "fa fa-book"
   [[menu.main]]
-    identifier = "researchgrants"
+    identifier = "/profile/researchgrants"
     pre = ""
     post = ""
     name = "研究計畫 / Research Grants"
-    url = "/researchgrants/"
+    url = "/profile/researchgrants"
     title = ""
     weight = 4
     [menu.main.params]
@@ -54,11 +55,11 @@
     pre = ""
     post = ""
     name = "研究筆記 / Research Note"
-    url = "/researchnote/"
+    url = "/researchnote/where-is-your-journal-home" # "/researchnote/"
     title = ""
     weight = 5
     [menu.main.params]
-      icon = "fa-solid fa-th"
+      icon = "far fa-sticky-note"
   [[menu.main]]
     identifier = ""
     # FixIt 0.2.14 | 新增 父级菜单项的标识符 (identifier)
@@ -88,7 +89,7 @@
     pre = ""
     post = ""
     name = "如何提升研究的可閱讀性"
-    url = "/researchnote/how-to-improve-readable"
+    url = "/researchnote/friendly-to-read"
     title = ""
     weight = 2
     [menu.main.params]
@@ -102,7 +103,7 @@
     pre = ""
     post = ""
     name = "從行為經濟學到行銷研究和應用 -How Does Behavioral Economics Influence Marketing? "
-    url = "/researchnote/how-to-improve-readable"
+    url = "/researchnote/how-does-behavioral-economics-influence-marketing"
     title = ""
     weight = 3
     [menu.main.params]
@@ -116,7 +117,7 @@
     pre = ""
     post = ""
     name = "開創當代行銷學的巨擘們 - Marketing Gurus you have to know"
-    url = "/researchnote/how-to-improve-readable"
+    url = "/researchnote/marketing-gurus-you-have-to-know"
     title = ""
     weight = 4
     [menu.main.params]
@@ -130,7 +131,7 @@
     pre = ""
     post = ""
     name = "有關研究人員的時間管理 -How do researchers effectively manage time? 一個電腦科學家對於教授職涯的自我省思"
-    url = "/researchnote/how-to-improve-readable"
+    url = "/researchnote/how-do-researchers-effectively-manage-time"
     title = ""
     weight = 5
     [menu.main.params]
@@ -144,7 +145,7 @@
     pre = ""
     post = ""
     name = "行銷領域期刊審查委員的角色和影響力 - What is the role of reviewers?"
-    url = "/researchnote/how-to-improve-readable"
+    url = "/researchnote/what-is-the-role-of-reviewers"
     title = ""
     weight = 6
     [menu.main.params]
@@ -158,7 +159,7 @@
     pre = ""
     post = ""
     name = "如何思考研究貢獻 - What is research contribution?"
-    url = "/researchnote/how-to-improve-readable"
+    url = "/researchnote/what-is-research-contribution"
     title = ""
     weight = 8
     [menu.main.params]
@@ -172,7 +173,7 @@
     pre = ""
     post = ""
     name = "研究小工具推薦 1 - Google學術搜尋按鈕"
-    url = "/researchnote/how-to-improve-readable"
+    url = "/researchnote/google-scholar-button"
     title = ""
     weight = 9
     [menu.main.params]
@@ -186,7 +187,7 @@
     pre = ""
     post = ""
     name = "研究小工具推薦 2 - Everything 免費軟體"
-    url = "/researchnote/how-to-improve-readable"
+    url = "/researchnote/everything"
     title = ""
     weight = 10
     [menu.main.params]
@@ -200,7 +201,7 @@
     pre = ""
     post = ""
     name = "研究小工具推薦3 - 文獻回顧好工具"
-    url = "/researchnote/how-to-improve-readable"
+    url = "/researchnote/good-tools-for-comprehensive-literature-review"
     title = ""
     weight = 11
     [menu.main.params]
@@ -214,7 +215,7 @@
     pre = ""
     post = ""
     name = "學術界之英雄出少年  Dr. Shrihari Sridhar"
-    url = "/researchnote/how-to-improve-readable"
+    url = "/researchnote/dr-shrihari-sridhar"
     title = ""
     weight = 12
     [menu.main.params]
@@ -228,7 +229,7 @@
     pre = ""
     post = ""
     name = "不知道如何操作SEM分析軟體嗎? 來看看學術界網紅 Dr. James Gaskin的頻道吧"
-    url = "/researchnote/how-to-improve-readable"
+    url = "/researchnote/dr-james-gaskin"
     title = ""
     weight = 13
     [menu.main.params]
@@ -436,7 +437,7 @@
     [params.home.profile]
       enable = true
       # Gravatar Email for preferred avatar in home page
-      gravatarEmail = ""
+      gravatarEmail = "yowkotsai@gmail.com"
       # URL of avatar shown in home page
       avatarURL = ""
       # FixIt 0.2.17 | NEW identifier of avatar menu link
@@ -444,7 +445,7 @@
       # FixIt 0.2.7 | CHANGED title shown in home page (HTML format is supported)
       title = "陳彥君的學術園地"
       # subtitle shown in home page
-      subtitle = "大家好，我是陳彥君\n\n主要研究興趣:\n\n策略行銷和策略導向\n\n產品創新與管理\n\n創業行銷\n\n數位化與數位轉型\n\n國際行銷與國際企業管理\n\n希望能透過這個空間分享和紀錄一些研究上的想法\n\n也能和同在學術研究這條路上的大家一起切磋討論~"
+      subtitle = "大家好，我是陳彥君<br>主要研究興趣:<br>策略行銷和策略導向<br>產品創新與管理<br>創業行銷<br>數位化與數位轉型<br>國際行銷與國際企業管理<br>希望能透過這個空間分享和紀錄一些研究上的想法<br>也能和同在學術研究這條路上的大家一起切磋討論~"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -463,7 +464,7 @@
     Linkedin = ""
     Twitter = ""
     Instagram = ""
-    Facebook = ""
+    Facebook = "bluekikochen"
     Telegram = ""
     Medium = ""
     Gitlab = ""
@@ -512,8 +513,8 @@
     Dribbble = ""
     Wordpress = ""
     Vine = ""
-    Googlescholar = ""
-    Researchgate = ""
+    Googlescholar = "WxuwPx8AAAAJ"
+    Researchgate = "Yen-Chun-Chen-4"
     Mastodon = ""
     Thingiverse = ""
     Devto = ""
@@ -543,8 +544,8 @@
     TryHackMe = ""
     Douyin = ""
     TikTok = ""
-    Phone = "02"
-    Email = "example@test.com"
+    Phone = ""
+    Email = "cyj22@ulive.pccu.edu.tw"
     RSS = false
 
   # FixIt 0.2.0 | CHANGED Page config
@@ -974,7 +975,7 @@
   # FixIt 0.2.14 | NEW Gravatar config
   [params.gravatar]
     # FixIt 0.2.18 | NEW Depends on the author's email, if the author's email is not set, the local avatar will be used
-    enable = false
+    enable = true
     # Gravatar host, default: "www.gravatar.com"
     host = "www.gravatar.com" # ["cn.gravatar.com", "gravatar.loli.net", ...]
     style = "" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
