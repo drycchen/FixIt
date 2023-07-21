@@ -275,7 +275,7 @@
   # FixIt 0.2.14 | NEW whether to add external Icon for external links automatically
   externalIcon = false
   # FixIt 0.2.14 | NEW FixIt will, by default, inject a theme meta tag in the HTML head on the home page only.
-  # You can turn it off, but we would really appreciate if you don’t, as this is a good way to watch FixIt's popularity on the rise.
+  # You can turn it off, but we would really appreciate if you don't, as this is a good way to watch FixIt's popularity on the rise.
   disableThemeInject = false
 
   # FixIt 0.2.0 | NEW App icon config
@@ -442,9 +442,9 @@
       # FixIt 0.2.17 | NEW identifier of avatar menu link
       avatarMenu = ""
       # FixIt 0.2.7 | CHANGED title shown in home page (HTML format is supported)
-      title = ""
+      title = "陳彥君的學術園地"
       # subtitle shown in home page
-      subtitle = ""
+      subtitle = "大家好，我是陳彥君\n\n主要研究興趣:\n\n策略行銷和策略導向\n\n產品創新與管理\n\n創業行銷\n\n數位化與數位轉型\n\n國際行銷與國際企業管理\n\n希望能透過這個空間分享和紀錄一些研究上的想法\n\n也能和同在學術研究這條路上的大家一起切磋討論~"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -543,9 +543,9 @@
     TryHackMe = ""
     Douyin = ""
     TikTok = ""
-    Phone = ""
-    Email = ""
-    RSS = true
+    Phone = "02"
+    Email = "example@test.com"
+    RSS = false
 
   # FixIt 0.2.0 | CHANGED Page config
   [params.page]
