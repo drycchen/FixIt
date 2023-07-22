@@ -55,7 +55,7 @@
     pre = ""
     post = ""
     name = "研究筆記 / Research Note"
-    url = "/researchnote/where-is-your-journal-home" # "/researchnote/"
+    url = "/researchnote"
     title = ""
     weight = 5
     [menu.main.params]
