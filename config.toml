@@ -257,9 +257,9 @@
   # FixIt 0.2.15 | CHANGED FixIt theme version
   version = "0.2.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
   # site description
-  description = ""
+  description = "大家好，我是陳彥君,主要研究興趣:策略行銷和策略導向,產品創新與管理,創業行銷,數位化與數位轉型,國際行銷與國際企業管理,希望能透過這個空間分享和紀錄一些研究上的想法,也能和同在學術研究這條路上的大家一起切磋討論~"
   # site keywords
-  keywords = ["Hugo", "FixIt"]
+  keywords = ["陳彥君","策略行銷和策略導向","產品創新與管理","創業行銷","數位化與數位轉型","國際行銷與國際企業管理"]
   # site default theme ["light", "dark", "auto"]
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
@@ -282,7 +282,7 @@
   # FixIt 0.2.0 | NEW App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "FixIt"
+    title = ""
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
