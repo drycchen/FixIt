@@ -242,7 +242,7 @@
     pre = ""
     post = ""
     name = "Blog"
-    url = "/blog/"
+    url = "/posts/"
     title = ""
     weight = 6
     [menu.main.params]
