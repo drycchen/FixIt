@@ -461,7 +461,7 @@
   # FixIt 0.2.16 | CHANGED Social config about the author
   [params.social]
     GitHub = ""
-    Linkedin = ""
+    Linkedin = "yen-chun-chen-49038657"
     Twitter = ""
     Instagram = ""
     Facebook = "bluekikochen"
@@ -545,7 +545,7 @@
     Douyin = ""
     TikTok = ""
     Phone = ""
-    Email = "cyj22@ulive.pccu.edu.tw"
+    Email = "bluekikochen@ntnu.edu.tw"
     RSS = false
 
   # FixIt 0.2.0 | CHANGED Page config
